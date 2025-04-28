@@ -1,0 +1,50 @@
+{
+    "name": "emcado/welcomebox",
+    "description": "Add Welcome Box in sidenav with user avatar",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/emcado/welcomebox/issues",
+        "source": "https://github.com/emcado/welcomebox"
+    },
+    "require": {
+        "flarum/core": "^1.3.0",
+        "afrux/forum-widgets-core": "^0.1.0"
+    },
+    "authors": [
+        {
+            "name": "Emcado",
+            "email": "contact@emcado.com"
+        },
+        {
+            "name": "Jake Wilson",
+            "email": "jake@emcado.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Marco Colia",
+            "email": "info@flarum.it",
+            "role": "Developer",
+            "homepage": "https://flarum.it"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Justoverclock\\Welcomebox\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Welcome Box",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-handshake",
+                "backgroundColor": "#E7672E",
+                "color": "white"
+            }
+        }
+    }
+}
